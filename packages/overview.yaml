@@ -234,6 +234,7 @@ sensor:
     internal: true
     register_type: read
     address: 30020
+    reuse_previous_range: true
     unit_of_measurement: "%"
     device_class: battery
     state_class: measurement
